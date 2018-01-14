@@ -5,66 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ut.">
+    <link rel="shortcut icon" href="udacity.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- Start main Header -->
     <header>
         <div class="container">
             <div class="row mt-4">
-                <div class="col-md-6 my-auto" id="column-logo">
-                    <img src="images/udacity.svg" alt="logo" class="img-fluid" width="80px" height="80px">
+                <div class="col-md-6 my-auto column-logo">
+                    <img src="images/udacity.svg" alt="logo" class="img-fluid" width="80" height="80">
                 </div>
-                <div class="col-md-6  my-auto" id="column-name">
+                <div class="col-md-6 my-auto column-name">
                     <h1 class="display-4">OLIVER LLUBERES</h1>
                     <h3>FRONT-END GURU</h3>
                 </div>
             </div>
-            <hr>
+            <hr class="separator my-3">
         </div>
     </header>
-
+    <!-- End main Header -->
+    <!-- Start section main work -->
     <section class="main-work">
         <div class="container">
             <img srcset="
-            images/code-320w.jpg 400w, 
-            images/code-720w.jpg 768w
-            " src="images/phone.jpg" alt="mainwork" class="rounded" id="main-work-img">
+            images/code-320w.jpg 768w, 
+            images/code-720w.jpg 1200w
+            " alt="mainwork" class="rounded main-work-img img-fluid ">
         </div>
     </section>
-
+    <!-- End section main work -->
+    <!-- Start section featured -->
     <section class="featured my-4">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-lg-12">
-                    <h1>Featured Work</h1>
-                </div>
-                <div class="col-md-4 col-sm-6 text-center">
+            <header>
+                <h1 class="featured-title">Featured Work</h1>
+            </header>
+            <div class="row text-center">
+                <article class="col-md-4 col-sm-6 ">
                     <img src="images/phone2.jpg" class="my-2 img-fluid rounded  work-img" alt="project1">
-                    <h2 class="my-2">PROJECT1</h2>
-                    <span class="my-2">https://github.com/Zybax</span>
-                </div>
-                <div class="col-md-4 col-sm-6 text-center">
+                    <h2 class="my-2  project-name">PROJECT1</h2>
+                    <a class="my-2 link" href="https://github.com/Zybax" target="_blank">https://github.com/Zybax</a>
+                </article>
+                <article class="col-md-4 col-sm-6">
                     <img src="images/phone.jpg" class="my-2 img-fluid rounded  work-img" alt="project2">
-                    <h2 class="my-2">PROJECT2</h2>
-                    <span class="my-2">https://github.com/Zybax</span>
-                </div>
-                <div class="col-md-4 col-sm-6 text-center">
+                    <h2 class="my-2 project-name">PROJECT2</h2>
+                    <a class="my-2 link" href="https://github.com/Zybax" target="_blank">https://github.com/Zybax</a>
+                </article>
+                <article class="col-md-4 col-sm-6 mx-auto">
                     <img src="images/tablet.jpg" class="my-2 img-fluid rounded work-img" alt="project3">
-                    <h2 class="my-2">PROJECT3</h2>
-                    <span class="my-2">https://github.com/Zybax</span>
-                </div>
+                    <h2 class="my-2 project-name">PROJECT3</h2>
+                    <a class="my-2 link" href="https://github.com/Zybax" target="_blank">https://github.com/Zybax</a>
+                </article>
             </div>
         </div>
     </section>
-    <footer class="text-center">
+    <!-- End section featured -->
+    <!-- Start footer -->
+    <footer class="text-center mb-4">
+        <div class="container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, dolorem! Impedit alias voluptatibus officia
+                ipsa fugiat harum eum sed iure porro adipisci atque, reprehenderit sequi odio officiis explicabo quia! Impedit!</p>
+            <div class="d-flex justify-content-center my-2">
+                <a href="">
+                    <i class="fa fa-facebook-square fa-3x mx-2 facebook-icon"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-twitter fa-3x mx-2 twitter-icon"></i>
+                </a>
+                <a href="">
+                    <i class="fa fa-youtube-play fa-3x mx-2 youtube-icon"></i>
+                </a>
+            </div>
+        </div>
 
     </footer>
-
-
+    <!-- Start footer -->
 </body>
 
 </html>

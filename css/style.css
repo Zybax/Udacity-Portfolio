@@ -7,23 +7,28 @@ header {
   text-align: center;
 }
 
-hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 2px solid #7d97ad !important;
-}
-
-#main-work-img {
-  width: 100%;
-  max-height: 500px;
-}
-
-.featured h2,
-span {
+.link {
   color: #2d3c49;
 }
 
-.featured h1 {
+.link:hover {
+  text-decoration: none;
+  color: #7d97ad !important;
+}
+
+.separator {
+  border: 2px solid #7d97ad;
+}
+
+.main-work-img {
+  width: 100%;
+}
+
+.project-name {
+  color: #2d3c49;
+}
+
+.featured-title {
   color: #7d97ad;
   text-align: center;
 }
@@ -32,20 +37,28 @@ span {
   width: 90%;
 }
 
+.facebook-icon {
+  color: #178bff;
+}
+
+.twitter-icon {
+  color: #01acfe;
+}
+
+.youtube-icon {
+  color: #ce0000;
+}
+
 @media screen and (min-width: 768px) {
-  .featured h1 {
+  .featured-title {
     color: #7d97ad;
     text-align: left;
   }
-  #main-work-img {
-    width: 100%;
-    max-height: 550px;
-  }
-  header .container .row #column-logo {
+  .column-logo {
     text-align: left;
     width: 50%;
   }
-  header .container .row #column-name {
+  .column-name {
     text-align: right;
     width: 50%;
   }
